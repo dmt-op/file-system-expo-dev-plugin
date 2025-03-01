@@ -29,6 +29,10 @@
   ],
   "author": "Dmytro Kulahin",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmt-op/file-system-expo-dev-plugin.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "expo": "~52.0.3",
