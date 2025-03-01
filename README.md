@@ -4,13 +4,6 @@ A DevTools plugin for managing and viewing the file system in Expo Go and Expo d
 
 ![Demo of file-system-expo-dev-plugin](./.github/assets/demo.gif)
 
-## Features
-
-- Easily navigate and inspect the file system directly within Expo DevTools
-- Perform file operations such as reading, writing, and deleting without extra setup
-- Supports both Expo Go and Expo Dev Client for seamless integration
-- Provides a lightweight and efficient way to test file storage during development
-
 ## Installation
 
 ### Managed Expo Projects
@@ -34,6 +27,13 @@ Yarn
 ```sh
 yarn add file-system-expo-dev-plugin
 ```
+
+## Features
+
+- Easily navigate and inspect the file system directly within Expo DevTools
+- Perform file operations such as reading, writing, and deleting without extra setup
+- Supports both Expo Go and Expo Dev Client for seamless integration
+- Provides a lightweight and efficient way to test file storage during development
 
 ## Motivation
 
