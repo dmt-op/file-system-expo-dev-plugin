@@ -1,6 +1,6 @@
 {
   "name": "file-system-expo-dev-plugin",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "A new DevTools plugin created by create-dev-plugin",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -27,6 +27,7 @@
     "dist",
     "expo-module.config.json"
   ],
+  "author": "Dmytro Kulahin",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
