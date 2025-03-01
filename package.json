@@ -1,6 +1,6 @@
 {
   "name": "file-system-expo-dev-plugin",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "description": "A new DevTools plugin created by create-dev-plugin",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -14,6 +14,10 @@
     "web:dev": "cd webui && npx expo start -w",
     "web:export": "cd webui && npx expo export -p web --output-dir ../dist"
   },
+  "workspaces": [
+    "examples/*",
+    "webui"
+  ],
   "keywords": [
     "expo",
     "devtools"
