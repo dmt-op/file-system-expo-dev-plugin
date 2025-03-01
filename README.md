@@ -1,29 +1,59 @@
-# file-system-expo-dev-plugin
+# File System Expo Dev Plugin
 
-A new DevTools plugin created by create-dev-plugin
+A DevTools plugin for managing and viewing the file system in Expo Go and Expo development projects.
 
-# API documentation
+![Demo of file-system-expo-dev-plugin](./.github/assets/demo.gif)
 
-- [Documentation for the latest stable release](https://docs.expo.dev/versions/latest/sdk/file-system-dev-plugin/)
-- [Documentation for the main branch](https://docs.expo.dev/versions/unversioned/sdk/file-system-dev-plugin/)
+## Features
 
-# Installation in managed Expo projects
+- Easily navigate and inspect the file system directly within Expo DevTools
+- Perform file operations such as reading, writing, and deleting without extra setup
+- Supports both Expo Go and Expo Dev Client for seamless integration
+- Provides a lightweight and efficient way to test file storage during development
 
-For [managed](https://docs.expo.dev/archive/managed-vs-bare/) Expo projects, please follow the installation instructions in the [API documentation for the latest stable release](#api-documentation). If you follow the link and there is no documentation available then this library is not yet usable within managed projects &mdash; it is likely to be included in an upcoming Expo SDK release.
+## Installation
 
-# Installation in bare React Native projects
+### Managed Expo Projects
 
-For bare React Native projects, you must ensure that you have [installed and configured the `expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before continuing.
+For managed Expo projects, follow the installation instructions in the [API documentation](https://docs.expo.dev/versions/latest/sdk/file-system-dev-plugin/). If the documentation is unavailable, the library may not yet be officially released in an Expo SDK.
 
-### Add the package to your npm dependencies
+### Bare React Native Projects
 
-```
+Ensure you have installed and configured the [`expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before proceeding.
+
+Install the package with:
+
+NPM
+
+```sh
 npm install file-system-expo-dev-plugin
 ```
 
+Yarn
 
+```sh
+yarn add file-system-expo-dev-plugin
+```
 
+## Motivation
 
-# Contributing
+This plugin was created to provide a simple tool for quickly opening and manually testing files and folders created in Expo projects. The goal was to avoid the need for additional utility implementations or external tools, making file system interactions more convenient.
 
-Contributions are very welcome! Please refer to guidelines described in the [contributing guide]( https://github.com/expo/expo#contributing).
+## Usage
+
+Once installed, the plugin will be available in the Expo DevTools interface, allowing you to interact with the file system in your Expo project.
+
+## API Documentation
+
+- [Latest stable release](https://docs.expo.dev/versions/latest/sdk/file-system-dev-plugin/)
+- [Main branch documentation](https://docs.expo.dev/versions/unversioned/sdk/file-system-dev-plugin/)
+
+## Contributing
+
+Contributions are welcome! Please follow the standard contribution process, including forking the repository, making changes in a feature branch, and submitting a pull request.
+
+Extra: [Expo contributing guide](https://github.com/expo/expo#contributing)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

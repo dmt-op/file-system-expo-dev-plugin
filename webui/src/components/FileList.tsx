@@ -104,7 +104,7 @@ export function FileList({
       columns={columns}
       dataSource={sortedFiles}
       pagination={false}
-      scroll={{ y: 'calc(100vh - 300px)' }}
+      scroll={{ y: 'calc(100vh - 372px)' }}
       rowKey="name"
     />
   )
