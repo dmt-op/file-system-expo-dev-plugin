@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router'
-import { useFsTools } from 'file-system-expo-dev-plugin'
+import { useFileExplorer } from 'file-explorer-expo-dev-plugin'
 
 export default function RootLayout() {
-  useFsTools()
-  return <Stack screenOptions={{ headerTitle: 'File System Tools Example' }} />
+  useFileExplorer()
+  return <Stack screenOptions={{ headerTitle: 'File Explorer Example' }} />
 }

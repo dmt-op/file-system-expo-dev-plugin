@@ -1,5 +1,5 @@
 {
-  "name": "file-system-expo-dev-plugin-webui",
+  "name": "file-explorer-expo-dev-plugin-webui",
   "version": "1.0.0-private",
   "main": "index.ts",
   "scripts": {

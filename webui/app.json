@@ -4,7 +4,7 @@
       "bundler": "metro"
     },
     "experiments": {
-      "baseUrl": "/_expo/plugins/file-system-expo-dev-plugin"
+      "baseUrl": "/_expo/plugins/file-explorer-expo-dev-plugin"
     }
   }
 }
