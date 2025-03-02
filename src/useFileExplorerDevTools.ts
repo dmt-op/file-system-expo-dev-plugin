@@ -20,7 +20,7 @@ type ErrorResponse = {
   error: string
 }
 
-export function useFileExplorer() {
+export function useFileExplorerDevTools() {
   const client = useDevToolsPluginClient('file-explorer-expo-dev-plugin')
 
   useEffect(() => {

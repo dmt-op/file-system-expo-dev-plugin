@@ -28,6 +28,16 @@ Yarn
 yarn add file-explorer-expo-dev-plugin
 ```
 
+## Usage
+
+```ts
+import { useFileExplorerDevTools } from 'file-explorer-expo-dev-plugin'
+
+useFileExplorerDevTools()
+```
+
+Example project: [examples/example-file-system-tools](./examples/example-file-system-tools)
+
 ## Features
 
 - Easily navigate and inspect the file system directly within Expo DevTools
