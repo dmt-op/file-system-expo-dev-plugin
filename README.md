@@ -1,8 +1,8 @@
-# File System Expo Dev Plugin
+# File Explorer Expo Dev Plugin
 
 A DevTools plugin for managing and viewing the file system in Expo Go and Expo development projects.
 
-![Demo of file-system-expo-dev-plugin](./.github/assets/demo.gif)
+![Demo of file-explorer-expo-dev-plugin](./.github/assets/demo.gif)
 
 ## Installation
 
@@ -19,13 +19,13 @@ Install the package with:
 NPM
 
 ```sh
-npm install file-system-expo-dev-plugin
+npm install file-explorer-expo-dev-plugin
 ```
 
 Yarn
 
 ```sh
-yarn add file-system-expo-dev-plugin
+yarn add file-explorer-expo-dev-plugin
 ```
 
 ## Features

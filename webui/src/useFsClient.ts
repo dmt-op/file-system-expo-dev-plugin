@@ -26,7 +26,7 @@ export function useFsClient({
   setActivePath,
   rootDirectoryType,
 }: UseClientProps) {
-  const client = useDevToolsPluginClient('file-system-expo-dev-plugin')
+  const client = useDevToolsPluginClient('file-explorer-expo-dev-plugin')
   const [rootDirectories, setRootDirectories] = useState<Record<
     RootDirectory,
     string

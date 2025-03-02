@@ -35,7 +35,6 @@
     "react-native-screens": "~4.4.0",
     "react-native-web": "~0.19.13",
     "react-native-webview": "13.12.5",
-    "file-system-expo-dev-plugin": "~1.0.0",
     "expo-image-picker": "~16.0.6",
     "expo-document-picker": "~13.0.3"
   },

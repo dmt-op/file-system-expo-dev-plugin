@@ -20,8 +20,8 @@ type ErrorResponse = {
   error: string
 }
 
-export function useFsTools() {
-  const client = useDevToolsPluginClient('file-system-expo-dev-plugin')
+export function useFileExplorer() {
+  const client = useDevToolsPluginClient('file-explorer-expo-dev-plugin')
 
   useEffect(() => {
     const subscriptions: EventSubscription[] = []

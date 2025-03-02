@@ -1,7 +1,7 @@
 {
-  "name": "file-system-expo-dev-plugin",
+  "name": "file-explorer-expo-dev-plugin",
   "version": "1.0.1",
-  "description": "A new DevTools plugin created by create-dev-plugin",
+  "description": "File Explorer DevTools plugin",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "sideEffects": false,
@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmt-op/file-system-expo-dev-plugin.git"
+    "url": "git+https://github.com/dmt-op/file-explorer-expo-dev-plugin.git"
   },
   "dependencies": {},
   "devDependencies": {
