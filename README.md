@@ -8,7 +8,7 @@ A DevTools plugin for managing and viewing the file system in Expo Go and Expo d
 
 ### Managed Expo Projects
 
-For managed Expo projects, follow the installation instructions in the [API documentation](https://docs.expo.dev/versions/latest/sdk/file-system-dev-plugin/). If the documentation is unavailable, the library may not yet be officially released in an Expo SDK.
+For managed Expo projects, follow the installation instructions below. [Dev tools plugins](https://docs.expo.dev/debugging/devtools-plugins)
 
 ### Bare React Native Projects
 
@@ -31,10 +31,14 @@ yarn add file-explorer-expo-dev-plugin
 ## Usage
 
 ```ts
-import { useFileExplorerDevTools } from 'file-explorer-expo-dev-plugin'
+import { useFileExplorerDevTools } from 'file-explorer-expo-dev-plugin';
 
-useFileExplorerDevTools()
+export default App() {
+  useFileExplorerDevTools();
+  return (/* rest of your app */)
+}
 ```
+After installing the dev tools plugin and adding the connecting required code to your project, you can start the dev server up with `npx expo start`. Then press <kbd>shift</kbd> + <kbd>m</kbd> to open the list of available dev tools plugins. Select the plugin you want to use, and it will open in a new Chrome window.
 
 Example project: [examples/example-file-system-tools](./examples/example-file-system-tools)
 
