@@ -53,15 +53,6 @@ Example project: [examples/example-file-system-tools](./examples/example-file-sy
 
 This plugin was created to provide a simple tool for quickly opening and manually testing files and folders created in Expo projects. The goal was to avoid the need for additional utility implementations or external tools, making file system interactions more convenient.
 
-## Usage
-
-Once installed, the plugin will be available in the Expo DevTools interface, allowing you to interact with the file system in your Expo project.
-
-## API Documentation
-
-- [Latest stable release](https://docs.expo.dev/versions/latest/sdk/file-system-dev-plugin/)
-- [Main branch documentation](https://docs.expo.dev/versions/unversioned/sdk/file-system-dev-plugin/)
-
 ## Contributing
 
 Contributions are welcome! Please follow the standard contribution process, including forking the repository, making changes in a feature branch, and submitting a pull request.
